@@ -40,3 +40,37 @@ section#telefone {
     width: 311px;
     background: url('../imagens/frame-iphone.png');
 }
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}
+
+section#redes-sociais {
+    text-align: right;
+    margin-right: 10px;
+}
+
+section#redes-sociais img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.347);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.608);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.504);
+    transition: transform 0.3s, border 0.3s;
+}
+
+/* 
+    Interatividade com os botões de redes sociais
+    1 - box-sizing: border-box -> Faz com que a borda faça parte do tamanho total da imagem
+    2- definir hover
+*/
